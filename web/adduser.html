@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGN UP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body bgcolor="pink">
+<Form method="post" action="dataSave.jsp">
+<table width=200px align="center" cellspacing="8" class="t">
+<tr><th colspan=2><h1>ADD USER</h1></th></tr>
+<tr><th><label>USER ID:</label></th>
+	<td><input type="text" class="fmt" name="userid" id="userid" placeholder="Enter userid" required="required"></td></tr>
+<tr><th><label>PASSWORD:</label></th>
+	<td><input type="password" class="fmt" name="pass" id="pass" placeholder="Enter password" required="required"></td></tr>
+<tr><th><label>EMAIL-ID:</label></th>
+	<td><input type="email" class="fmt" id="email" name="email" placeholder="abc@xyz.com" required="required"></td></tr>
+<tr><th><label>MOBILE NO.:</label></th>
+	<td><input type="number" class="fmt" name="num" id="num" placeholder="Mobile No." required="required"></td></tr>
+<tr><th><label>CITY:</label></th>
+<td>
+<Select name="city" id="city"><option value="default">Select your city
+		<option value="lko">Lucknow</option>
+		<option value="knp">Kanpur</option>
+		<option value="noida">Noida</option>
+		<option value="alb">Allahabad</option>
+		<option value="others">Others</option>
+</Select> 
+    </td></tr>
+<tr><th><label>TYPE:</label></th>
+<td>
+<Select name="type" id="type"><option value="default">Select type of user
+		<option value="user">Student</option>
+		<option value="admin">Admin</option>
+</Select> 
+    </td></tr>			
+<tr><td colspan=2 align="center"><button type="submit">Save</button>
+</table>
+</form>
+</body>
+</html>
+</html>

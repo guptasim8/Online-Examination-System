@@ -1,0 +1,53 @@
+.bg{
+        background-image: "PIC.png";
+       
+}
+body{
+        background-image: "PIC.png";
+       
+}
+.fa{
+	background-color: pink;
+}
+h1 {
+	color: darkgreen;
+	size: 20px;
+	font-family: cursive;
+	text-decoration: underline;
+	text-align: center;
+}
+label {
+	color:black;
+        size: 20px;
+	text-align: center;
+}
+
+input.fmt {
+	background-color: white;
+	
+	border-radius: 8px;
+}
+input:focus
+{
+    	background-color: pink;
+	
+	border-radius: 8px;
+}
+
+table.t {
+	background-color:white;
+	border-style: solid;
+	border-radius: 8px;
+}
+a:active{
+   color:red;
+}
+a:hover{
+   color:green;
+}
+a:link{
+   color:crimson;
+}
+a:visited{
+   color:blue;
+}

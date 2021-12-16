@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADDING QUESTION</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body bgcolor="pink">
+<Form method="post" action="addques.jsp">
+<table width=200px align="center" cellspacing="8" class="t">
+<tr><th colspan=2><h1>ADD QUESTION</h1></th></tr>
+<tr><th><label>QUESTION:</label></th>
+	<td><input type="text" class="fmt" name="ques" id="ques" placeholder="Enter question" required="required"></td></tr>
+<tr><th><label>A:</label></th>
+	<td><input type="text" class="fmt" name="ans1" id="ans1" placeholder="option 1" required="required"></td></tr>
+<tr><th><label>B:</label></th>
+	<td><input type="text" class="fmt" id="ans2" name="ans2" placeholder="option 2" required="required"></td></tr>
+<tr><th><label>C:</label></th>
+	<td><input type="text" class="fmt" name="ans3" id="ans3" placeholder="option 3" required="required"></td></tr>
+<tr><th><label>D:</label></th>
+        <td><input type="text" class="fmt" name="ans4" id="ans4" placeholder="option 4" required="required"></td></tr>
+<tr><th><label>CORRECT ANSWER:</label></th>
+        <td><input type="text" class="fmt" name="ca" id="ca" placeholder="enter correct choice" required="required"></td></tr>			
+<tr><td colspan="2"><input type="hidden" name="lang" value="ques_of_java"></td></tr>
+<tr><td colspan=2 align="center"><button type="submit">Save</button>
+</table>
+</Form>
+</body>
+</html>
+</html>
