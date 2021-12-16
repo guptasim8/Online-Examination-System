@@ -1,3 +1,10 @@
 # OnlineExamination
+### Java EE based project 
+### There are 2 modules-
 
-https://app.travis-ci.com/guptasim8/OnlineExamination.svg?branch=main
+## Admin 
+#### Admin is allowed to upload questions.
+
+## Student 
+#### 1.Student can give quiz. 
+#### 2.View their result.
